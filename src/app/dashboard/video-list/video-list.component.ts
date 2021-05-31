@@ -1,14 +1,21 @@
-import { Component, OnInit } from '@angular/core';
+import { Component } from '@angular/core';
 
-// @Component({
-//   selector: 'app-video-list',
-//   templateUrl: './video-list.component.html',
-//   styleUrls: ['./video-list.component.css'],
-// })
-// export class VideoListComponent {
-//   videoList = videos;
-//   constructor() {}
-// }
+@Component({
+  selector: 'app-video-list',
+  templateUrl: './video-list.component.html',
+  styleUrls: ['./video-list.component.css'],
+})
+export class VideoListComponent {
+  videoList = videos;
+  status: boolean = false;
+
+  constructor() {}
+
+  clickEvent() {
+    this.status = !this.status;
+    return this.status;
+  }
+}
 
 const videos = [
   {
@@ -77,12 +84,3 @@ const videos = [
     ],
   },
 ];
-
-@Component({
-  selector: 'app-video-list',
-  templateUrl: './video-list.component.html',
-  styleUrls: ['./video-list.component.css'],
-})
-export class VideoListComponent {
-  videoList = videos;
-}
