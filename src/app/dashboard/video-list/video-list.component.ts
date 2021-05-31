@@ -7,13 +7,12 @@ import { Component } from '@angular/core';
 })
 export class VideoListComponent {
   videoList = videos;
-  status: boolean = false;
+  selectedVideo;
 
   constructor() {}
 
-  clickEvent() {
-    this.status = !this.status;
-    return this.status;
+  selectVideo(video) {
+    this.selectedVideo = video;
   }
 }
 
