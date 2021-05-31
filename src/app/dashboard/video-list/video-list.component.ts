@@ -18,36 +18,12 @@ const videos = [
     author: 'Kyle Cordes',
     id: 'JPuqluYYa-o',
     viewDetails: [
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 27,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 47,
-        region: 'Europe',
-        date: '2016-03-24',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-24',
-      },
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-25',
-      },
+      { age: 17, region: 'North America', date: '2016-03-23' },
+      { age: 27, region: 'North America', date: '2016-03-23' },
+      { age: 37, region: 'North America', date: '2016-03-23' },
+      { age: 47, region: 'Europe', date: '2016-03-24' },
+      { age: 37, region: 'North America', date: '2016-03-24' },
+      { age: 17, region: 'North America', date: '2016-03-25' },
     ],
   },
   {
@@ -55,36 +31,12 @@ const videos = [
     author: 'Paul Spears',
     id: 'cxqRijt9LbQ',
     viewDetails: [
-      {
-        age: 36,
-        region: 'North America',
-        date: '2016-06-23',
-      },
-      {
-        age: 30,
-        region: 'North America',
-        date: '2016-06-23',
-      },
-      {
-        age: 54,
-        region: 'North America',
-        date: '2016-07-23',
-      },
-      {
-        age: 43,
-        region: 'Europe',
-        date: '2016-0-24',
-      },
-      {
-        age: 32,
-        region: 'North America',
-        date: '2016-08-24',
-      },
-      {
-        age: 32,
-        region: 'North America',
-        date: '2016-08-25',
-      },
+      { age: 36, region: 'North America', date: '2016-06-23' },
+      { age: 30, region: 'North America', date: '2016-06-23' },
+      { age: 54, region: 'North America', date: '2016-07-23' },
+      { age: 43, region: 'Europe', date: '2016-0-24' },
+      { age: 32, region: 'North America', date: '2016-08-24' },
+      { age: 32, region: 'North America', date: '2016-08-25' },
     ],
   },
   {
@@ -92,36 +44,12 @@ const videos = [
     author: 'Sani Yusuf',
     id: 's10wrXA-a7Y',
     viewDetails: [
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 27,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 47,
-        region: 'Europe',
-        date: '2016-03-24',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-24',
-      },
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-25',
-      },
+      { age: 17, region: 'North America', date: '2016-03-23' },
+      { age: 27, region: 'North America', date: '2016-03-23' },
+      { age: 37, region: 'North America', date: '2016-03-23' },
+      { age: 47, region: 'Europe', date: '2016-03-24' },
+      { age: 37, region: 'North America', date: '2016-03-24' },
+      { age: 17, region: 'North America', date: '2016-03-25' },
     ],
   },
   {
@@ -129,36 +57,12 @@ const videos = [
     author: 'Jack Balbes',
     id: 'A_Rq6ZsoXpI',
     viewDetails: [
-      {
-        age: 36,
-        region: 'North America',
-        date: '2016-06-23',
-      },
-      {
-        age: 30,
-        region: 'North America',
-        date: '2016-06-23',
-      },
-      {
-        age: 54,
-        region: 'North America',
-        date: '2016-07-23',
-      },
-      {
-        age: 43,
-        region: 'Europe',
-        date: '2016-0-24',
-      },
-      {
-        age: 32,
-        region: 'North America',
-        date: '2016-08-24',
-      },
-      {
-        age: 32,
-        region: 'North America',
-        date: '2016-08-25',
-      },
+      { age: 36, region: 'North America', date: '2016-06-23' },
+      { age: 30, region: 'North America', date: '2016-06-23' },
+      { age: 54, region: 'North America', date: '2016-07-23' },
+      { age: 43, region: 'Europe', date: '2016-0-24' },
+      { age: 32, region: 'North America', date: '2016-08-24' },
+      { age: 32, region: 'North America', date: '2016-08-25' },
     ],
   },
   {
@@ -166,36 +70,12 @@ const videos = [
     author: 'John Baur',
     id: 'VJOPsjlbhdg',
     viewDetails: [
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 27,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-23',
-      },
-      {
-        age: 47,
-        region: 'Europe',
-        date: '2016-03-24',
-      },
-      {
-        age: 37,
-        region: 'North America',
-        date: '2016-03-24',
-      },
-      {
-        age: 17,
-        region: 'North America',
-        date: '2016-03-25',
-      },
+      { age: 17, region: 'North America', date: '2016-03-23' },
+      { age: 27, region: 'North America', date: '2016-03-23' },
+      { age: 37, region: 'North America', date: '2016-03-23' },
+      { age: 47, region: 'Europe', date: '2016-03-24' },
+      { age: 37, region: 'North America', date: '2016-03-24' },
+      { age: 17, region: 'North America', date: '2016-03-25' },
     ],
   },
 ];
