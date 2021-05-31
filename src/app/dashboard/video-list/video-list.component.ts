@@ -1,16 +1,14 @@
 import { Component, OnInit } from '@angular/core';
 
-@Component({
-  selector: 'app-video-list',
-  templateUrl: './video-list.component.html',
-  styleUrls: ['./video-list.component.css'],
-})
-export class VideoListComponent implements OnInit {
-  videoList = videos;
-  constructor() {}
-
-  ngOnInit(): void {}
-}
+// @Component({
+//   selector: 'app-video-list',
+//   templateUrl: './video-list.component.html',
+//   styleUrls: ['./video-list.component.css'],
+// })
+// export class VideoListComponent {
+//   videoList = videos;
+//   constructor() {}
+// }
 
 const videos = [
   {
@@ -79,3 +77,12 @@ const videos = [
     ],
   },
 ];
+
+@Component({
+  selector: 'app-video-list',
+  templateUrl: './video-list.component.html',
+  styleUrls: ['./video-list.component.css'],
+})
+export class VideoListComponent {
+  videoList = videos;
+}
