@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Video } from '../types';
 
 @Component({
   selector: 'app-video-list',
@@ -6,12 +7,12 @@ import { Component } from '@angular/core';
   styleUrls: ['./video-list.component.css'],
 })
 export class VideoListComponent {
-  videoList = videos;
-  selectedVideo;
+  videoList: Video[] = videos;
+  selectedVideo: Video | undefined;
 
   constructor() {}
 
-  selectVideo(video) {
+  selectVideo(video: Video) {
     this.selectedVideo = video;
   }
 }

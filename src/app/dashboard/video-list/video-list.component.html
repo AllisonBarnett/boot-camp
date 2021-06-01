@@ -1,7 +1,8 @@
 <div
   *ngFor="let video of videoList"
   (click)="selectVideo(video)"
-  [class.highlighted]="video === selectedVideo"
+  [style.background-color]="video.id === selectedVideo"
+  [class.highlighted]="video.id === selectedVideo"
 >
   <strong> Title {{ video.title }}</strong>
   <div>Author {{ video.author }}</div>
