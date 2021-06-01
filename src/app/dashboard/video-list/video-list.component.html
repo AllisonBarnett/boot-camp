@@ -1,9 +1,7 @@
-<div
+<app-video-thumbnail
   *ngFor="let video of videoList"
   (click)="selectVideo(video)"
-  [style.background-color]="video === selectedVideo"
-  [class.highlighted]="video === selectedVideo"
+  [video]="video"
+  [selected]="video === selectedVideo"
 >
-  <strong> Title {{ video.title }}</strong>
-  <div>Author {{ video.author }}</div>
-</div>
+</app-video-thumbnail>
